@@ -1,14 +1,21 @@
-To install this organization profile:
+DROP-IN INSTALL (Organization Profile)
 
-1. Clone your organization repository or create a new .github repo:
-   git clone https://github.com/LeftLevelOrg/.github
+1) Create (or open) the special org repo:
+   https://github.com/LeftLevelOrg/.github
 
-2. Place these files into the following path:
-   .github/profile/
+2) Upload these files into EXACT path:
+   .github/profile/README.md
+   .github/profile/LeftLevel_Banner_Solid.svg
+   .github/profile/LeftLevel_Banner_Transparent.svg
+   .github/profile/README_SETUP.txt
 
-3. Commit and push:
-   git add .github/profile
-   git commit -m "Add organization profile and banner"
-   git push
+3) Commit the changes. Make sure the .github repo is PUBLIC:
+   Settings → Danger Zone → Change repository visibility → Public
 
-GitHub will automatically display this README on https://github.com/LeftLevelOrg.
+4) Refresh your org page:
+   https://github.com/LeftLevelOrg
+
+Notes:
+- The README uses <picture> to auto-switch banners for dark/light mode.
+- If the banner doesn't appear immediately, wait ~30s and hard refresh.
+- If you rename the org or branch, update the raw URLs in README.md accordingly.

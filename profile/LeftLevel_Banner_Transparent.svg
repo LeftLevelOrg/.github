@@ -1,0 +1,14 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.35" stroke="#BBBBBB" stroke-width="2" fill="none">
+    <circle cx="950" cy="90" r="60"/>
+    <circle cx="950" cy="90" r="90"/>
+    <circle cx="950" cy="90" r="120"/>
+  </g>
+  <line x1="680" y1="210" x2="950" y2="90" stroke="#BBBBBB" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="950" cy="90" r="10" fill="#BBBBBB" opacity="0.9"/>
+  <g fill="#F5F7FA" font-family="Inter, Helvetica, Arial, sans-serif" text-anchor="start">
+    <text x="60" y="130" font-size="64" font-weight="700">LeftLevel</text>
+    <text x="60" y="175" font-size="26">Decentralized Privacy — Built to Stay Online</text>
+    <text x="60" y="210" font-size="20" font-style="italic" opacity="0.95">Communication that Never Goes Dark</text>
+  </g>
+</svg>
